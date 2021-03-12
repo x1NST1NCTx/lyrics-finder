@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LyricsFinderApp</string>
+    <string name="edtTxt_Artist_Name">Enter the Artist\'s Name</string>
+    <string name="edtTxt_Song_Name">Enter the Song\'s Name</string>
+    <string name="btn_Get_Lyrics">Get Lyrics</string>
+</resources>
