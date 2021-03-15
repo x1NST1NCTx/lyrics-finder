@@ -21,9 +21,9 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/edt_Artist_name"
-                android:layout_width="414dp"
-                android:layout_height="48dp"
+                android:id="@+id/edt_Artist_Name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="44dp"
                 android:ems="10"
                 android:gravity="center_horizontal"
@@ -36,8 +36,8 @@
 
             <EditText
                 android:id="@+id/edt_Song_Name"
-                android:layout_width="393dp"
-                android:layout_height="51dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="44dp"
                 android:ems="10"
                 android:gravity="center_horizontal"
@@ -46,7 +46,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/edt_Artist_name" />
+                app:layout_constraintTop_toBottomOf="@+id/edt_Artist_Name" />
 
             <Button
                 android:id="@+id/btn_Get_Lyrics"
@@ -60,8 +60,8 @@
                 app:layout_constraintTop_toBottomOf="@+id/edt_Song_Name" />
 
             <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
+                android:id="@+id/txt_Lyrics"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="1dp"
